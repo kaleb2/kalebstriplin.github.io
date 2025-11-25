@@ -16,7 +16,7 @@ Thank you!
 
 ## Deployment
 
-This repository is deployed as a single-page website at: https://kaleb2.github.io/kalebstriplin.github.io/root/root.html
+This repository is deployed as a single-page website at: https://kaleb2.github.io/kalebstriplin.github.io/root/
 
 the html source is root/root.html
 
