@@ -21,3 +21,9 @@ This repository is deployed as a single-page website at: https://kaleb2.github.i
 the html source is root/root.html
 
 the css source is _styles/styles.css
+
+## References
+
+Some html source and css styles are borrowed and adapted from my work here: https://github.com/kaleb2/webdev-lab-notebook
+
+forked from https://github.com/caterinasworld/webdev-lab-notebook
