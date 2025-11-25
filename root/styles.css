@@ -81,13 +81,15 @@ p {
 
 .content {
   box-sizing: border-box;
-  display: inline-block;
-  width: 50%;
-  padding: 100px;
+  display: inline-flex;
+  justify-content: center;
 }
 
-/* .content {
-  display: inline-block;
+.content .left {
   width: 50%;
-  height: 200px;
-} */
+}
+
+.content .right {
+  width: 50%;
+}
+
