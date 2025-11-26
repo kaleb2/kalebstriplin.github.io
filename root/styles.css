@@ -98,3 +98,6 @@ p {
   width: 50%;
 }
 
+btn {
+  background-color: var(--black);
+}
