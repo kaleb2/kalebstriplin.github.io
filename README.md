@@ -27,3 +27,7 @@ the css source is _styles/styles.css
 Some html source and css styles are borrowed and adapted from my work here: https://github.com/kaleb2/webdev-lab-notebook
 
 forked from https://github.com/caterinasworld/webdev-lab-notebook
+
+Source for opening email from javascript: https://stackoverflow.com/questions/7381150/how-to-send-an-email-from-javascript
+
+Source for opening git links in a new tab: https://stackoverflow.com/questions/34082002/html-button-opening-link-in-new-tab
