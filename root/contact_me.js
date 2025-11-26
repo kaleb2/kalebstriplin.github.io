@@ -1,5 +1,3 @@
-// fetch JavaScript objects representing specific elements in the DOM
-// let userInput1 = document.querySelector("#userInput1");
 let email = document.querySelector("#email_button");
 
 // add an event listener on the target element
