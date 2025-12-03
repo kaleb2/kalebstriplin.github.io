@@ -56,293 +56,294 @@
       </section>
       <section id="projects">
         <h2>Projects</h2>
-
-        <div class="accordion" id="projectsAccordion">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
+        <div>
+          <div class="accordion" id="projectsAccordion">
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Open GL Theme Park
+                </button>
+              </h3>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#projectsAccordion"
               >
-                Open GL Theme Park
-              </button>
-            </h2>
-            <div
-              id="collapseOne"
-              class="accordion-collapse collapse"
-              data-bs-parent="#projectsAccordion"
-            >
-              <div class="accordion-body">
-                <div class="project_description">
-                  <p>
-                    This is my Open GL Theme Park project. It is was developed
-                    as a final project for a graphics course. It started with a
-                    template containing only the grass, roller coaster, and an
-                    odd floating camera system. I updated this world with these
-                    features:
-                  </p>
-                  <ul>
-                    <li>Trees constructed parametrically</li>
-                    <li>
-                      A rail for the roller coaster constructed as a sweep
-                      object
-                    </li>
-                    <li>A carousel with hierarchical motion</li>
-                    <li>A concession stand with texture mapping</li>
-                    <li>An improved navigation system using WASD</li>
-                    <li>Toggling to ride the roller coaster</li>
-                  </ul>
-                  <button
-                    type="button"
-                    class="btn btn-dark"
-                    data-bs-toggle="modal"
-                    data-bs-target="#theme_park_modal"
-                  >
-                    Screenshots
-                  </button>
-                  <button
-                    class="btn btn-dark"
-                    onclick=" window.open('https://gitlab.com/kalebstriplin/open-gl-theme-park','_blank')"
-                  >
-                    Git Lab
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                BIRDLE
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse"
-              data-bs-parent="#projectsAccordion"
-            >
-              <div class="accordion-body">
-                <div class="project_description">
-                  <p>
-                    This is a WORDLE style game for guessing birds. It was
-                    developed with a function style as a final project for a
-                    functional programming course. The game begins with a
-                    blurred image of a bird. Players can guess the species of
-                    the bird, or have it slightly less blurred. This project
-                    also makes use of the OpenCvSharp library to dynamically
-                    blur the image depending on the game state. Some future
-                    additions to this game might be to load the images from a
-                    data base, or apply different filters using OpenCvSharp.
-                  </p>
-                  <button
-                    type="button"
-                    class="btn btn-dark"
-                    data-bs-toggle="modal"
-                    data-bs-target="#birdle_modal"
-                  >
-                    Screenshots
-                  </button>
-                  <button
-                    class="btn btn-dark"
-                    onclick=" window.open('https://gitlab.com/kalebstriplin/birdle','_blank')"
-                  >
-                    Git Lab
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                Mini Forest Simulator
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#projectsAccordion"
-            >
-              <div class="accordion-body">
-                <div class="project_description">
-                  <p>
-                    This is a Rust program for simulating a very small subset of
-                    old growth forest behaviors. The primary behaviors that are
-                    captured in the simulator are mixed age, mixed species, and
-                    manual management. This means that trees will multiply, age,
-                    and die. There are different trees that multiply and die at
-                    different rates. And there are ways for the user to interact
-                    by burning sections of the forest.
-                  </p>
-                  <button
-                    type="button"
-                    class="btn btn-dark"
-                    data-bs-toggle="modal"
-                    data-bs-target="#mini_forest_modal"
-                  >
-                    Screenshots
-                  </button>
-                  <button
-                    class="btn btn-dark"
-                    onclick=" window.open('https://github.com/kaleb2/MiniForestSimulator','_blank')"
-                  >
-                    Git Hub
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseFour"
-                aria-expanded="false"
-                aria-controls="collapseFour"
-              >
-                .NET Services
-              </button>
-            </h2>
-            <div
-              id="collapseFour"
-              class="accordion-collapse collapse"
-              data-bs-parent="#projectsAccordion"
-            >
-              <div class="accordion-body">
-                <div class="dual_content">
-                  <div class="image">
-                    <img
-                      src="./assets/showerdrain.png"
-                      alt="example image of alignment fiducial"
-                      width="300"
-                      height="300"
-                    />
-                  </div>
-                  <div class="description">
+                <div class="accordion-body">
+                  <div class="project_description">
                     <p>
-                      While working at Thermo Fisher Scientific I designed and
-                      implemented a .NET service for managing sample space,
-                      alignment fiducials, and navigating the stage for another
-                      service responsible for running automated alignments on an
-                      electron microscope.
+                      This is my Open GL Theme Park project. It is was developed
+                      as a final project for a graphics course. It started with
+                      a template containing only the grass, roller coaster, and
+                      an odd floating camera system. I updated this world with
+                      these features:
                     </p>
+                    <ul>
+                      <li>Trees constructed parametrically</li>
+                      <li>
+                        A rail for the roller coaster constructed as a sweep
+                        object
+                      </li>
+                      <li>A carousel with hierarchical motion</li>
+                      <li>A concession stand with texture mapping</li>
+                      <li>An improved navigation system using WASD</li>
+                      <li>Toggling to ride the roller coaster</li>
+                    </ul>
+                    <button
+                      type="button"
+                      class="btn btn-dark"
+                      data-bs-toggle="modal"
+                      data-bs-target="#theme_park_modal"
+                    >
+                      Screenshots
+                    </button>
+                    <button
+                      class="btn btn-dark"
+                      onclick=" window.open('https://gitlab.com/kalebstriplin/open-gl-theme-park','_blank')"
+                    >
+                      Git Lab
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseFive"
-                aria-expanded="false"
-                aria-controls="collapseFive"
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  BIRDLE
+                </button>
+              </h3>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#projectsAccordion"
               >
-                Microscope Calibration Algorithms
-              </button>
-            </h2>
-            <div
-              id="collapseFive"
-              class="accordion-collapse collapse"
-              data-bs-parent="#projectsAccordion"
-            >
-              <div class="accordion-body">
-                <div class="dual_content">
-                  <div class="image">
-                    <img
-                      src="./assets/rotation_grid.png"
-                      alt="example image for magnification calibration"
-                      width="350"
-                      height="250"
-                    />
-                  </div>
-                  <div class="description">
+                <div class="accordion-body">
+                  <div class="project_description">
                     <p>
-                      Part of my work at Thermo Fisher Scientific includes
-                      maintaining and improving an algorithm and best known
-                      method for calibrating the stretch, roation, and
-                      orthogonality of microscope images. This algorithm
-                      includes working on computer vision problems, image
-                      processing, and microscope integrations.
+                      This is a WORDLE style game for guessing birds. It was
+                      developed with a function style as a final project for a
+                      functional programming course. The game begins with a
+                      blurred image of a bird. Players can guess the species of
+                      the bird, or have it slightly less blurred. This project
+                      also makes use of the OpenCvSharp library to dynamically
+                      blur the image depending on the game state. Some future
+                      additions to this game might be to load the images from a
+                      data base, or apply different filters using OpenCvSharp.
                     </p>
+                    <button
+                      type="button"
+                      class="btn btn-dark"
+                      data-bs-toggle="modal"
+                      data-bs-target="#birdle_modal"
+                    >
+                      Screenshots
+                    </button>
+                    <button
+                      class="btn btn-dark"
+                      onclick=" window.open('https://gitlab.com/kalebstriplin/birdle','_blank')"
+                    >
+                      Git Lab
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseSix"
-                aria-expanded="false"
-                aria-controls="collapseSix"
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Mini Forest Simulator
+                </button>
+              </h3>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#projectsAccordion"
               >
-                ASP.NET Blazor Web App
-              </button>
-            </h2>
-            <div
-              id="collapseSix"
-              class="accordion-collapse collapse"
-              data-bs-parent="#projectsAccordion"
-            >
-              <div class="accordion-body">
-                <div class="dual_content">
-                  <div class="image">
-                    <img
-                      src="./assets/app_page.png"
-                      alt="screenshot of readiness app"
-                      width="400"
-                      height="300"
-                    />
-                  </div>
-                  <div class="description">
+                <div class="accordion-body">
+                  <div class="project_description">
                     <p>
-                      Another large part of my work at Thermo Fisher was helping
-                      design and implement a web application for monitoring,
-                      scheduling, and running automated alignments on an
-                      electron microscope. I specifically designed pages for
-                      viewing the timeline of events on a microscope and the
-                      status of samples.
+                      This is a Rust program for simulating a very small subset
+                      of old growth forest behaviors. The primary behaviors that
+                      are captured in the simulator are mixed age, mixed
+                      species, and manual management. This means that trees will
+                      multiply, age, and die. There are different trees that
+                      multiply and die at different rates. And there are ways
+                      for the user to interact by burning sections of the
+                      forest.
                     </p>
+                    <button
+                      type="button"
+                      class="btn btn-dark"
+                      data-bs-toggle="modal"
+                      data-bs-target="#mini_forest_modal"
+                    >
+                      Screenshots
+                    </button>
+                    <button
+                      class="btn btn-dark"
+                      onclick=" window.open('https://github.com/kaleb2/MiniForestSimulator','_blank')"
+                    >
+                      Git Hub
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  .NET Services
+                </button>
+              </h3>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#projectsAccordion"
+              >
+                <div class="accordion-body">
+                  <div class="dual_content">
+                    <div class="image">
+                      <img
+                        src="./assets/showerdrain.png"
+                        alt="example image of alignment fiducial"
+                        width="300"
+                        height="300"
+                      />
+                    </div>
+                    <div class="description">
+                      <p>
+                        While working at Thermo Fisher Scientific I designed and
+                        implemented a .NET service for managing sample space,
+                        alignment fiducials, and navigating the stage for
+                        another service responsible for running automated
+                        alignments on an electron microscope.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  Microscope Calibration Algorithms
+                </button>
+              </h3>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#projectsAccordion"
+              >
+                <div class="accordion-body">
+                  <div class="dual_content">
+                    <div class="image">
+                      <img
+                        src="./assets/rotation_grid.png"
+                        alt="example image for magnification calibration"
+                        width="350"
+                        height="250"
+                      />
+                    </div>
+                    <div class="description">
+                      <p>
+                        Part of my work at Thermo Fisher Scientific includes
+                        maintaining and improving an algorithm and best known
+                        method for calibrating the stretch, roation, and
+                        orthogonality of microscope images. This algorithm
+                        includes working on computer vision problems, image
+                        processing, and microscope integrations.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="false"
+                  aria-controls="collapseSix"
+                >
+                  ASP.NET Blazor Web App
+                </button>
+              </h3>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                data-bs-parent="#projectsAccordion"
+              >
+                <div class="accordion-body">
+                  <div class="dual_content">
+                    <div class="image">
+                      <img
+                        src="./assets/app_page.png"
+                        alt="screenshot of readiness app"
+                        width="400"
+                        height="300"
+                      />
+                    </div>
+                    <div class="description">
+                      <p>
+                        Another large part of my work at Thermo Fisher was
+                        helping design and implement a web application for
+                        monitoring, scheduling, and running automated alignments
+                        on an electron microscope. I specifically designed pages
+                        for viewing the timeline of events on a microscope and
+                        the status of samples.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="modal mt-5" id="theme_park_modal" >
+        <div class="modal mt-5" id="theme_park_modal">
           <div
             class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
           >
@@ -472,12 +473,20 @@
       </section>
       <section id="contact">
         <h2>Contact</h2>
-        <input
-          type="button"
-          class="btn btn-dark"
-          value="Email me"
-          id="email_button"
-        />
+        <form action="">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text" class="form-control" id="subject" />
+          <br /><br />
+          <label for="message" class="form-label">Message</label>
+          <textarea id="message" class="form-control" rows="4"></textarea>
+          <br /><br />
+          <input
+            type="submit"
+            class="btn btn-dark"
+            value="Email me"
+            id="email_button"
+          />
+        </form>
       </section>
     </section>
   </body>

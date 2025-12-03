@@ -32,6 +32,7 @@ h1 {
 h2 {
   font-weight: bold;
   text-align: center;
+  margin: 3%;
 }
 
 h3 {
@@ -172,14 +173,15 @@ figcaption {
 }
 
 .accordion {
-  margin: 15px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .accordion-button {
   background-color: var(--black);
   color: var(--white);
+  position: relative;
+  display: flex;
 }
 
 .accordion-button:hover {
@@ -204,4 +206,8 @@ figcaption {
 
 .project_description ul {
   margin-left: 15px;
+}
+
+section#contact form {
+  padding: 2%
 }
