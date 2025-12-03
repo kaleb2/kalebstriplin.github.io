@@ -31,3 +31,7 @@ forked from https://github.com/caterinasworld/webdev-lab-notebook
 Source for opening email from javascript: https://stackoverflow.com/questions/7381150/how-to-send-an-email-from-javascript
 
 Source for opening git links in a new tab: https://stackoverflow.com/questions/34082002/html-button-opening-link-in-new-tab
+
+Source for bootstrep accordion https://getbootstrap.com/docs/5.3/components/accordion/
+
+Source for css styling bootstrap accordion https://stackoverflow.com/questions/78678416/css-for-bootstrap-accordion

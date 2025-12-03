@@ -145,3 +145,18 @@ figcaption {
   margin-top: 15px;
   margin-bottom: 15px;;
 }
+
+.accordion-button {
+    background-color: var(--gray1);
+    color: var(--white);
+}
+
+.accordion-button:not(.collapsed){
+    background-color: var(--gray1);
+    color: var(--white);
+} 
+
+.accordion-body {
+  background-color: var(--gray3);
+  color: var(--black);
+}

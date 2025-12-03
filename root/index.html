@@ -87,7 +87,7 @@
         </div>
 
         <div class="previous_work">
-          <h3>Readiness App</h3>
+          <h3>Blazor Web App</h3>
           <div class="content">
             <div class="left">
               <p>
@@ -111,184 +111,249 @@
       </section>
       <section id="projects">
         <h2>Projects</h2>
-
-        <div class="project">
-          <h3>Open GL Theme Park</h3>
-          <div class="project_description">
-            <p>This is my Open GL Theme Park project</p>
-            <button
-              type="button"
-              class="btn btn-dark"
-              data-bs-toggle="modal"
-              data-bs-target="#theme_park_modal"
+        <div class="accordion" id="projectsAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Open GL Theme Park
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#projectsAccordion"
             >
-              Screenshots
-            </button>
-            <button
-              class="btn btn-dark"
-              onclick=" window.open('https://gitlab.com/kalebstriplin/open-gl-theme-park','_blank')"
-            >
-              Git Lab
-            </button>
-          </div>
-          <div class="modal fade mt-5" id="theme_park_modal">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h4>Open GL Theme Park</h4>
+              <div class="accordion-body">
+                <div class="project_description">
+                  <p>This is my Open GL Theme Park project</p>
                   <button
                     type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
+                    class="btn btn-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#theme_park_modal"
+                  >
+                    Screenshots
+                  </button>
+                  <button
+                    class="btn btn-dark"
+                    onclick=" window.open('https://gitlab.com/kalebstriplin/open-gl-theme-park','_blank')"
+                  >
+                    Git Lab
+                  </button>
                 </div>
-                <div class="modal-body" width="800">
-                  <figure>
-                    <img
-                      src="./assets/theme_park1.png"
-                      alt="screenshot of readiness app"
-                      width="400"
-                      height="300"
-                    />
-                    <figcaption>
-                      Theme park with a view of the carousel, roller coaster,
-                      and a concession stand
-                    </figcaption>
-                  </figure>
-
-                  <figure>
-                    <img
-                      src="./assets/theme_park2.png"
-                      alt="screenshot of readiness app"
-                      width="400"
-                      height="300"
-                    />
-                    <figcaption>
-                      View of the theme park while riding the roller coaster
-                    </figcaption>
-                  </figure>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                BIRDLE
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#projectsAccordion"
+            >
+              <div class="accordion-body">
+                <div class="project_description">
+                  <p>This is a WORDLE style game for guessing birds</p>
+                  <button
+                    type="button"
+                    class="btn btn-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#birdle_modal"
+                  >
+                    Screenshots
+                  </button>
+                  <button
+                    class="btn btn-dark"
+                    onclick=" window.open('https://gitlab.com/kalebstriplin/birdle','_blank')"
+                  >
+                    Git Lab
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Mini Forest Simulator
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#projectsAccordion"
+            >
+              <div class="accordion-body">
+                <div class="project_description">
+                  <p>This is forest simulation</p>
+                  <button
+                    type="button"
+                    class="btn btn-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#mini_forest_modal"
+                  >
+                    Screenshots
+                  </button>
+                  <button
+                    class="btn btn-dark"
+                    onclick=" window.open('https://github.com/kaleb2/MiniForestSimulator','_blank')"
+                  >
+                    Git Hub
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="project">
-          <h3>BIRDLE</h3>
-          <div class="project_description">
-            <p>This is a WORDLE style game for guessing birds</p>
-            <button
-              type="button"
-              class="btn btn-dark"
-              data-bs-toggle="modal"
-              data-bs-target="#birdle_modal"
-            >
-              Screenshots
-            </button>
-            <button
-              class="btn btn-dark"
-              onclick=" window.open('https://gitlab.com/kalebstriplin/birdle','_blank')"
-            >
-              Git Lab
-            </button>
-          </div>
-          <div class="modal fade mt-5" id="birdle_modal">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h4>Open GL Theme Park</h4>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <figure>
-                    <img
-                      src="./assets/birdle1.png"
-                      alt="screenshot of readiness app"
-                      width="400"
-                      height="300"
-                    />
-                    <figcaption>
-                      Start of a Birdle game with a blurry image
-                    </figcaption>
-                  </figure>
+        <div class="modal fade mt-5" id="theme_park_modal">
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+          >
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4>Open GL Theme Park</h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body" width="800">
+                <figure>
+                  <img
+                    src="./assets/theme_park1.png"
+                    alt="screenshot of readiness app"
+                    width="400"
+                    height="300"
+                  />
+                  <figcaption>
+                    Theme park with a view of the carousel, roller coaster, and
+                    a concession stand
+                  </figcaption>
+                </figure>
 
-                  <figure>
-                    <img
-                      src="./assets/birdle2.png"
-                      alt="screenshot of readiness app"
-                      width="400"
-                      height="300"
-                    />
-                    <figcaption>
-                      End of a Birdle game after correctl guessing the bird
-                    </figcaption>
-                  </figure>
-                </div>
+                <figure>
+                  <img
+                    src="./assets/theme_park2.png"
+                    alt="screenshot of readiness app"
+                    width="400"
+                    height="300"
+                  />
+                  <figcaption>
+                    View of the theme park while riding the roller coaster
+                  </figcaption>
+                </figure>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="project">
-          <h3>Mini Forest Simulator</h3>
-          <div class="project_description">
-            <p>This is forest simulation</p>
-            <button
-              type="button"
-              class="btn btn-dark"
-              data-bs-toggle="modal"
-              data-bs-target="#mini_forest_modal"
-            >
-              Screenshots
-            </button>
-            <button
-              class="btn btn-dark"
-              onclick=" window.open('https://github.com/kaleb2/MiniForestSimulator','_blank')"
-            >
-              Git Hub
-            </button>
-          </div>
-          <div class="modal fade mt-5" id="mini_forest_modal">
-            <div class="modal-dialog modal-dialog-centered modal-xl">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h4>Open GL Theme Park</h4>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <figure>
-                    <img
-                      src="./assets/mini_forest1.png"
-                      alt="screenshot of readiness app"
-                      width="400"
-                      height="300"
-                    />
-                    <figcaption>
-                      Mini Forest Simulator at the initial state
-                    </figcaption>
-                  </figure>
+        <div class="modal fade mt-5" id="birdle_modal">
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+          >
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4>Open GL Theme Park</h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <figure>
+                  <img
+                    src="./assets/birdle1.png"
+                    alt="screenshot of readiness app"
+                    width="400"
+                    height="300"
+                  />
+                  <figcaption>
+                    Start of a Birdle game with a blurry image
+                  </figcaption>
+                </figure>
 
-                  <figure>
-                    <img
-                      src="./assets/mini_forest2.png"
-                      alt="screenshot of readiness app"
-                      width="400"
-                      height="300"
-                    />
-                    <figcaption>Mini Forest Simulator in progress</figcaption>
-                  </figure>
-                </div>
+                <figure>
+                  <img
+                    src="./assets/birdle2.png"
+                    alt="screenshot of readiness app"
+                    width="400"
+                    height="300"
+                  />
+                  <figcaption>
+                    End of a Birdle game after correctl guessing the bird
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade mt-5" id="mini_forest_modal">
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+          >
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4>Open GL Theme Park</h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <figure>
+                  <img
+                    src="./assets/mini_forest1.png"
+                    alt="screenshot of readiness app"
+                    width="400"
+                    height="300"
+                  />
+                  <figcaption>
+                    Mini Forest Simulator at the initial state
+                  </figcaption>
+                </figure>
+
+                <figure>
+                  <img
+                    src="./assets/mini_forest2.png"
+                    alt="screenshot of readiness app"
+                    width="400"
+                    height="300"
+                  />
+                  <figcaption>Mini Forest Simulator in progress</figcaption>
+                </figure>
               </div>
             </div>
           </div>
