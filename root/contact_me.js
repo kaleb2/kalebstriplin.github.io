@@ -14,5 +14,5 @@ function handleClick(event) {
     console.log(message.value);
 
     // https://stackoverflow.com/questions/7381150/how-to-send-an-email-from-javascript
-    // window.open('mailto:kaleb2@pdx.edu?subject=Hello!&body=Sup Kaleb,');
+    window.open('mailto:kaleb2@pdx.edu?subject=${subject}&body=${message}'.replace('${subject}', subject.value).replace('${message}', message.value));
 }
